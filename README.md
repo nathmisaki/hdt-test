@@ -55,3 +55,17 @@ You should focus on building the main screen with showing the results first and 
 Ignore the rest of the filters, and the inputs don't need to follow the same design or usability, you can just put a regular input on the screen to set minimun and maximun values on price for example.
 
 You should use Rails as a proxy to the API as if the API above was your connection to database. Feel free to use any gem or just the standard lib to consume the API.
+
+## Vue Tips
+
+This project was set up to load any Vue component (inside app/javascripts/components) if there is a div tag with class `vue` inside an ERB template
+
+```
+<div class="vue">
+  <app></app> <!-- app is in app/javascripts/components/app.vue -->
+</div>
+```
+
+I know that Vue is not so usual and using it inside an ERB template is not common. So feel free to ask Nelson any questions. Here is my phone +55(11)99927-3055 you can reach me out through Whatsapp.
+
+This article can help to understand the setup https://dalezak.medium.com/rails-6-strategy-to-use-vue-components-and-dynamically-load-webpacker-assets-50fb055b8b1e
