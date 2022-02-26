@@ -1,0 +1,4 @@
+<% javascripts = Rails.application.root.join('app', 'javascript', 'javascripts', '**', '*.js') %>
+<% Dir.glob(javascripts).each do |file| %>
+  import '<%= file %>';
+<% end %>
