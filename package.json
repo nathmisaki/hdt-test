@@ -6,8 +6,10 @@
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
     "@rails/webpacker": "4.3.0",
+    "axios": "^0.26.0",
     "rails-erb-loader": "^5.5.2",
     "vue": "~2",
+    "vue-axios": "^3.4.1",
     "vue-loader": "~15",
     "vue-template-compiler": "~2.6"
   },
